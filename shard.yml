@@ -1,0 +1,21 @@
+name: css-builder
+version: 0.1.0
+
+authors:
+  - Lars Olsson <lasso@lassoweb.se>
+
+description: |
+  This command line application builds CSS files from SASS files.
+
+dependencies:
+  sass:
+    github: straight-shoota/sass.cr
+    version: ~> 0.6.0
+
+license: MIT
+
+repository: "https://github.com/lasso/css-builder"
+
+targets:
+  css-builder:
+    main: src/builder.cr
